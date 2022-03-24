@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<title>Antonio Sanz Montemayor</title>
+
+	<script language="JavaScript">
+	window.defaultStatus="Contacto";
+	var ns=((document.layers)?true:false);
+	var ie=((document.all)?true:false);
+	if(ns)
+		document.writeln('<li'+'nk rel="stylesheet" href="estilosNS.css" type="text/css">')
+	else
+		document.writeln('<li'+'nk rel="stylesheet" href="estilosIE.css" type="text/css">');
+		
+	function on(id){
+		id.style.color="#fcfa02";
+	}
+	function off(id){
+		id.style.color="#000000";
+	}
+	</script>
+</head>
+<body background="imagenes/fondo.gif" bgcolor="white" class="texto" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+<br><br>
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td valign="top">
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	    <td><img src="imagenes/flecha.gif"><a href="indexPres.html" class="enlace" name="presentacion" onmouseout="off(presentacion)" onmouseover="on(presentacion);window.status='Presentaci&oacute;n';return true" target="_parent">Presentaci&oacute;n</a></td>
+	</tr>
+	<tr>
+	    <td class="noSubEnlace">&nbsp;&nbsp;<img src="imagenes/subflechaImp.gif">Contacto</td>
+	</tr>
+	<tr>
+	    <td><img src="imagenes/flecha.gif"><a href="indexDocencia.html" class="enlace" name="docencia" onmouseout="off(docencia)" onmouseover="on(docencia);window.status='Docencia';return true" target="_parent">Docencia</a></td>
+	</tr>
+	<tr>
+	    <td>&nbsp;&nbsp;<img src="imagenes/subflecha.gif"><a href="indexPfc.html" class="subEnlace" name="pfc" onmouseout="off(pfc)" onmouseover="on(pfc);window.status='Proyectos Fin de Carrera';return true" target="_parent">TFM/TFG/PFC</a></td>
+	</tr>
+	<tr>
+	    <td><img src="imagenes/flecha.gif"><a href="indexInvestigacion.html" class="enlace" name="investigacion" onmouseout="off(investigacion)" onmouseover="on(investigacion);window.status='Investigaci&oacute;n';return true" target="_parent">Investigaci&oacute;n</a></td>
+	</tr>
+	<tr>
+	    <td><img src="imagenes/flecha.gif"><a href="indexEnlaces.html" class="enlace" name="enlaces" onmouseout="off(enlaces)" onmouseover="on(enlaces);window.status='Enlaces de Inter&eacute;s';return true" target="_parent">Enlaces</a></td>
+	</tr>
+	<tr>
+	    <td><img src="imagenes/flecha.gif"><a href="indexFaq.html" class="enlace" name="faq" onmouseout="off(faq)" onmouseover="on(faq);window.status='Preguntas frecuentes';return true" target="_parent">FAQ</a></td>
+	</tr>
+	</table>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+	<style type="text/css">        .titulo  {
+        	font-size : x-large;
+        	font-weight : bold;
+        	font-family : Verdana;
+        }
+        
+        .titulo2  {
+        	font-size : large;
+        	font-weight : bold;
+        	color : White;
+        	font-family : Verdana;
+        }
+        
+        .subtitulo  {
+        	font-size : large;
+        	font-family : Verdana;
+        }
+        
+        .subtitulo2  {
+        	font-size : medium;
+        	font-family : Verdana;
+        }
+        
+        .enlace  {
+        	font-size : small;
+        	font-family : Tahoma;
+        	text-decoration : none;
+			color:Black;
+			font-weight:bold;
+        }
+        .subEnlace {
+        	font-size : small;
+        	font-family : Tahoma;
+        	text-decoration : none;
+			color:Black;
+        }
+        .noEnlace {
+        	font-size : small;
+        	font-family : Tahoma;
+        	text-decoration : none;
+			color:#fcfa02;
+			font-weight:bold;
+        }
+        .noSubEnlace {
+        	font-size : small;
+        	font-family : Tahoma;
+        	text-decoration : none;
+			color:#fcfa02;
+        }
+        
+        .pequena  {
+        	font-size : small;
+        	font-family : Tahoma,Verdana;
+        }
+        .muyPequena  {
+        	font-size : x-small;
+        	font-family : Tahoma,Verdana;
+        }
+        .adjudicado  {
+        	color : red;
+        	font-weight : bold;
+        	font-family : Verdana;
+        }
+        
+        .finalizado  {
+        	color : blue;
+        	font-weight : bold;
+        	font-family : Verdana;
+        }
+        
+        .libre  {
+        	color : #009900;
+        	font-weight : bold;
+        	font-family : Verdana;
+        }
+        
+        .texto  {
+        	font-family : Verdana;
+        	font-size : 8pt;
+        }
+        .tiposPFC{
+        	color : #990000;
+        	font-weight : bold;
+        	font-family : Tahoma,Verdana;
+        	font-size : large;
+	}
+        .tituloPFC{
+        	color : #ccaa00;
+        	font-weight : bold;
+        	font-family : Tahoma,Verdana;
+        	font-size : large;
+	}
+        .tituloTFM{
+        	color : #00aaaa;
+        	font-weight : bold;
+        	font-family : Tahoma,Verdana;
+        	font-size : large;
+	}
+        .tituloTFG{
+        	color : #aa00aa;
+        	font-weight : bold;
+        	font-family : Tahoma,Verdana;
+        	font-size : large;
+	}
+        </style>
+<body>
+
+
+
+</body>
+</html>

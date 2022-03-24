@@ -1,0 +1,2996 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Antonio Sanz Montemayor</title>
+		<script language="JavaScript">
+	window.defaultStatus="Proyectos Fin de Carrera";
+	var ns=((document.layers)?true:false);
+	var ie=((document.all)?true:false);
+	if(ns)
+		document.writeln('<li'+'nk rel="stylesheet" href="estilosNS.css" type="text/css">')
+	else
+		document.writeln('<li'+'nk rel="stylesheet" href="estilosIE.css" type="text/css">');
+		
+	function on(id){
+		id.style.color="#fcfa02";
+	}
+	function off(id){
+		id.style.color="#000000";
+	}
+		</script>
+	</head>
+	<body bgcolor="white" class="texto" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0">
+		<br>
+		<br>
+		<table width="650" align="center" class="pequena">
+			<tr>
+				<div align="center" class="tiposPFC">Trabajos de Fin de Master/ Trabajos de Fin de Grado / Proyectos Fin de Carrera</div>
+				<br>
+				<br>
+				<td class="pequena">
+					Dentro de nuestro grupo <a href="http://www.caporesearch.es" target="_blank" class="enlace">CAPO</a> (Computaci&oacute;n de Altas Prestaciones y Optimizaci&oacute;n) trabajo alrededor de los siguientes temáticas:
+					<ul>
+						<li>
+							<b>procesamiento de v&iacute;deo en tiempo real</b>
+						<li>
+							<b>visi&oacute;n din&aacute;mica</b>
+						<li>
+							<b>procesamiento de altas prestaciones sobre GPUs</b>
+						<li>
+							<b>sonificaci&oacute;n de im&aacute;genes</b>
+					</ul>
+					Si te interesa alguno de estos temas, te gusta trabajar con motivaci&oacute;n, 
+					y quieres hacerlo en un ambiente distendido, p&aacute;sate por mi despacho y 
+					hablamos.<b> Si quieres quitarte el proyecto como sea ni te molestes.</b><br>
+					<br>
+					<hr width="80%" align="center">
+					<table border="0" align="center">
+						<tr>
+							<td class="pequena" align="center">Este soy yo (2001)</td>
+							<td class="pequena" align="center">Algunos dicen que soy un <i>borde</i><br>
+								(Cruz de Roberts)</td>
+						</tr>
+						<tr>
+							<td align="center"><img src="imagenes/foto.jpg" border="1" width="200" height="241"></td>
+							<td align="center"><img src="imagenes/bordes2.gif" border="1" width="200" height="241"></td>
+						</tr>
+					</table>
+					<hr width="80%" align="center">
+					<br>
+					<div align="center"><a class="pequena" href="http://www.etsii.urjc.es/estudios/pfc.html">Normativa 
+							de la ETSII sobre Proyectos Fin de Carrera de Inform&aacute;tica</a></div>
+					<div align="center"><a class="pequena" href="documentos/plantillaLatex_PFC.zip">Plantilla Latex para escribir la memoria</a></div>		
+					<br>
+					<hr width="80%" align="center">
+					<br>
+					<div align="center" class="tiposPFC">Sugerencias para elegir un TFM/TFG/PFC</div>
+					<br>
+					Últimamente recibo a muchos alumnos preguntando por proyectos de fin de grado/carrera/master. A todos les doy unas <b>guías maestras</b> para cumplir con el objetivo: hacer un <b>proyecto digno</b>, <b>aprender</b> con él y <b>disfrutar</b> en lugar de cumplir penitencia. <b>Mis sugerencias</b> para sacar partido a un proyecto son las siguientes:
+					<table border="0" align="center">
+						<tr>
+							<td class="pequena">
+							<ol>
+								<li> <b>Busca un proyecto cuya línea te motive al 100%.</b> El trabajo es largo, más que una práctica de una asignatura, trabajarás cómodo si te gusta lo que haces.
+								<li> <b>Busca un tutor que te de confianza.</b> Si no te sientes cómodo para preguntar las dudas que te surjan, no sacarás provecho del valor formativo del proyecto.
+								<li> <b>Busca un tutor al que puedas encontrar con facilidad.</b> El correo electrónico está muy bien, pero a veces no es suficiente, seguramente ya lo hayas sufrido.
+								<li> <b>Busca un proyecto en el que se te ofrezca un espacio/material para realizarlo.</b> Está bien hacerlo en casa, pero a veces el trabajo en equipo es fundamental para la resolución sinérgica de los problemas. 
+								<li> <b>Busca un proyecto que te abra nuevas metas.</b> Hay diferentes tipos de proyectos, unos más orientados a la investigación, otros más orientados al desarrollo, pero en todos tendrás que programar.
+							</ol>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<hr width="80%" align="center">
+					<br>
+				</td>
+			</tr>
+			<tr>
+				<td class="pequena">
+				<div align="center" class="tiposPFC">Leyenda</div>
+				<div align="center" class="tituloTFM">Trabajo de Fin de Master</div> 
+				<div align="center" class="tituloTFG">Trabajo de Fin de Grado</div> 
+				<div align="center" class="tituloPFC">Proyecto de Fin de Carrera (antiguas titulaciones)</div> 
+					<br>
+					<hr width="80%" align="center">
+					<br>
+				</td>
+			</tr>
+			<tr>
+				<td class="pequena">
+					<div align="center" class="tiposPFC">Oferta (curso 2020/21)</div>
+					<br>
+<!--Motivación: Seguir un patrón dibujado en un plano (por ejemplo, con una impresora) de forma que se pueda localizar su orientación y posición relativas con respecto a la cámara es un problema ya resuelto en el mundo de la Visión por Computadora. Ahora bien, sus aplicaciones son muy interesantes: realidad aumentada (dibujar un objeto sintético mediante gráficos por computadora integrado en la imagen real), balizamiento para robots, juegos con Visión por Computadora, etc. El problema de la construcción de aplicaciones utilizando seguimiento de planos necesita que las implementaciones sean en tiempo real y que la CPU no se cargue demasiado con el proceso de seguimiento.-->
+
+
+					<br>
+
+
+
+<!--Actualmente <b>no oferto</b> ningún TFG o PFC por estar totalmente desbordado con los que se encuentran en desarrollo (ver abajo) así como por las nuevas directrices de asignación de trabajos de fin de grado. No obstante, si tienes interés o conoces a estudiantes que hayan pasado antes por los proyectos de GAVAB ven a hablar conmigo sobre posibles temáticas o futuros proyectos fin de carrera. Si la idea es buena o hay interés por ambas partes, se puede tratar de buscar una solución.-->
+ 
+Contacta conmigo por correo-e si te interesa realizar un TFG relacionado con los temas de investigación que trabajamos en el grupo de investigación CAPO. Puedes hacerte una idea del tipo de trabajos viendo el listado de TFGs/TFMs que he dirigido/codirigido.
+
+
+					<br><br><br>
+					<div align="center" class="tiposPFC">En Desarrollo (cursos 2018/19 y 2019/20)</div>
+					<br>
+
+
+
+
+
+
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Análisis Visual Automático de Ratas en el Laberinto en Cruz</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFG se colaborará con investigadores de Farmacología para desarrollar una aplicación que simplifique la labor de monitorizar a ratas de laboratorio que se someten al experimento del laberinto en cruz. La rata que se expone al laberinto se monitorizará de forma automática para conocer los tiempos que pasa en las diferentes zonas del mismo, y que sirve para analizar el comportamiento de los animales en diferentes condiciones, fármacos, etc.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Procesamiento de imágenes, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="adjudicado">En desarrollo (2019/20)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Laura Fernández García
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+
+
+
+	
+
+				
+
+
+					
+	
+
+
+<!--					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Título: Sistema para la recomendación de contenidos televisivos en SmartTv (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se propone el desarrollo de un sistema de recomendación de contenidos basado en los gustos televisivos del usuario. La aplicación se programará en JavaScript. Para simplificar su desarrollo y su integración final en el televisor, se hará uso del SDK facilitado por la compañía Samsung para sus televisores SmartTV (http://www.samsungdforum.com/).<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior/Master</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, programación web o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="libre">Libre</span></td>
+									</tr>
+									
+									<tr><
+										<td>Autor: Álvaro Sedano
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+							</td>
+						</tr>
+					</table>
+-->
+
+<!--
+					<br>
+					<br>
+					<div align="center" class="tiposPFC">En Desarrollo (cursos 2010/11, 2011/12, 2012/13)</div>
+					<br>
+
+
+					
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Seguimiento Automático de Balón en Secuencias de Fútbol (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende crear un detector de la pelota en partidos de fútbol. Se deben limitar al extremo los falsos positivos, y para ello se incluirán en cascada diversos métodos de filtrado, segmentación y seguimiento.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="adjudicado">Adjudicado (2012/13)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Amaia Espinosa
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_seguimientoPelota.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+
+
+
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">TexRed: Aceleración hardware favorecida por operaciones de reducción (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Los procesadores gráficos (tarjetas gráficas) poseen más transistores que las CPUs más habituales y ofrecen una potencia muy superior a la de éstas. Sin embargo,  
+											poseen limitaciones para determinados cálculos globales. Las reducciones de texturas son técnicas vitales para computar estas operaciones globales sobre los modelos de cómputo 
+											de las tarjetas gráficas. La intención de este proyecto es estudiar experimentalmente los enfoques 
+											de las reducciones para maximizar el rendimiento de las operaciones globales en el hardware gráfico, teniendo en cuenta diferentes tecnologías (pbuffers, 
+											frame buffer objects,...) y formatos (1D, 2D, rectangulares, simétricas, asimétricas,...). En este proyecto se trabajará con el hardware gráfico más potente del mercado.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenGL, Cg, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="adjudicado">Adjudicado 05/06</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Jes&uacute;s Gil Fern&aacute;ndez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+							</td>
+						</tr>
+					</table>
+<br>
+<br>
+
+-->
+
+<!-- *************************************************************************************************************************************** -->
+
+
+
+
+					<div align="center" class="tiposPFC">Trabajos de Fin de Máster Dirigidos</div>
+<br>
+<!--
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Sistema de control y corrección de errores en entorno logístico (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se diseñará e implementará un sistema para hacer control y corrección de errores en la entrega de mercancías en el fin de una cinta distribuidora de paquetes previo envío a almacenes. Para ello habrá que utilizar un sistema de visión artificial con capacidad de seguimiento.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, Python, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2018)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: José Antonio García Fierro
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_ControlSeguimientoAlmacenes.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>-->
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Optimización y Paralelización en CPU del método de la Ordenada Discreta para la Simulación del Transporte de Radiación en OpenFOAM (co-tutor: Javier Marugán)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Ingeniería Informática se analizará el método de la ordenada discreta en simulación de procesos fotoactivados para mejorar su ejeccución en plataformas abiertas como OpenFOAM y compararlas a las tradicionales en el sector productivo como ANSYS Fluent.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Ingeniería Informática</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenMP, OpenMPI</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Enero 2019)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: José Ángel Moreno San Segundo
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_openfoam.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Sistema de control y corrección de errores en entorno logístico (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se estudiarán diferentes trackers tales como TLD, Struck, Re3, KCF, MedianFlow, etc. para un problema de seguimiento de empleados y paquetes en cintas distribuidoras de mercancía.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, Qt, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2018)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: José Antonio García Fierro
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_trackers.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Sistema para la Detección de Logotipos con Aprendizaje Profundo Supervisado (co-tutor: Alfredo Cuesta)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se diseñará e implementará un sistema de detección y reconomiento de logos de marcas comerciales en secuencias de video para posterior análisis estadístico.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, Python, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2018)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Vicent Avaria Avaria
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_yoloLogos.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Calibración y Reconstrucción 3D en Sistema de Múltiples Cámaras (co-tutor: David Concha)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende crear un sistema de reconstrucción 3D pasiva en un entorno de múltiples cámaras. En este trabajo se extenderá el método de reconstrucción epipolar matching publicado en el trabajo "Kernel-based 3D tracking" por Tyagi et al. en 2007.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2016)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Joel Corrado Juarez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_ReconstruccionCamaras.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Visión tridimensional (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretenden crear diferentes aplicaciones de visión 3D desde el uso de múltiples vistas estáticas, tales como reconstrucción 3D, image stitching, etc. explorando la geometría proyectiva y los procesos de calibración de cámaras.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2016)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Roger Sobregrau Gil
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_reconstruccionVistas.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Comparativa de técnicas para segmentación de iris (co-tutor: Antonio Jesús Bandera - Univ. Málaga)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende realizar una comparativa de diferentes métodos de segmentación de iris en bases de datos de imágenes de ojos.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Matlab, C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2016)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Trinidad Jaén Bermúdez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_comparativasegmentacioniris.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Seguimiento visual de peatones mediante redes de neuronas convolucionales (co-tutor: Alfredo Cuesta)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende utilizar los modernos métodos de redes neuronales convolucionales para su aplicación en detección y seguimiento visual de objetos. Para ello se utilizará la base de datos de Daimler de detección de peatones y el entorno Caffe/DIGITS, así como GPUs para facilitar la tarea de entrenamiento.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, Python, DIGITS/Caffe</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2016)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Francisco José García Espinosa
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_seguimientoCNN.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">CUDA-JVIE for fast analysis of highly inhomogeneous dielectric objects (co-tutor: Emanuele Schiavi)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende analizar y portar a CUDA C una solución matemática para el análisis de objetos dieléctricos no homogeneos previamente desarrollada por el Research Laboratory of Electronics del Massachussets Institute of Technology (MIT) con propósitos de aceleración de sus tiempos de ejecución para escalarlo a problemas complejos.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, NVIDIA CUDA</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2014)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Eduardo Alcaín
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_CUDA_JVIE.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Visión artificial aplicada al estudio conductual de roedores: conteo de sacudidas (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende crear una aplicación para favorecer el análisis de experimentos llevados a cabo en el Departamento de Farmacología de la URJC. En particular, se creará una aplicación capaz de contar mediante técnicas de visión artificial las veloces sacudidas de pata de una rata de laboratorio bajo determinadas condiciones experimentales.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Qt</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2014)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Amaia Mangado
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_rata.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Seguimiento articulado con múltiples kinect (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende crear un montaje 3D basado en los sensores RGBD de consumo Microsoft Kinect. Los dispositivos Kinect se pueden utilizar para registrar la profundidad de una estancia, calibrándolos se pueden coordinar diferentes unidades para reconstruir una estancia en 3D, realizar el seguimiento de un objeto articulado, etc. En este proyecto se abordará el problema del seguimiento en 3D de un objeto articulado mediante el uso de 4 kinects.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Qt</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2013)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Juan Carlos Nuñez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_kinects.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+					
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Reconocimiento y corrección de actividades físicas con Kinect (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende analizar de forma automática el trabajo deportivo de un usuario bajo diferentes actividades físicas. Para ello se contará con un disposivito de profundidad Kinect que ayudará a extraer la información de las articulaciones del usuario.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Qt</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2013)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Francisco José Rivero
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_kinectActividades.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Análisis Computacional y Aceleración mediante GPUs del Algoritmo PCA en Problemas de Reconocimiento de Cara (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende analizar el rendimiento del método de Principal Component Analysis (PCA) típico en problemas de reconocimiento facial, así como acelerarlo mediante su cómputo en procesadores gráficos de consumo.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, NVIDIA CUDA</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2013)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Roberto García
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_PCAGPU.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Evaluación de múltiples regiones en GPU y aplicación al seguimiento de objetos articulados (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende analizar el rendimiento de diferentes implementaciones en GPU para la evaluación de múltiples regiones de interés (con lados no necesariamente paralelos a los ejes) en una imagen que muestra el movimiento de un objeto articulado. Las diferentes implementaciones incluirán desarrollos basados en el pipeline gráfico de renderizado (mediante técnicas de shading), así como otras basadas en la tecnología Nvidia CUDA.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, CUDA, OpenGLm, Cg</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Septiembre 2011)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: David Concha Gómez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_ROI_GPU.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+					
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Detección de cambio de carril-bus en plataformas de bajas prestaciones (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende abordar el problema de la detección automática de cambio de carril por un autobús circulando por su vía. Para ello se dispondrá de un autobús de la EMT con un conductor profesional.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Java o C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2011)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: David Fernández López
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_busvigia.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Detección y seguimiento de objetivos en imágenes de radar (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende abordar un problema de vigilancia mediante radar marítimo en una ciudad aplicando métodos propios de procesamiento de imágen. <br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2011)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Jesús Sánchez-Oro
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_radar.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Detección de cambios de escenas en vídeos (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Máster Oficial en Visión Artificial se pretende disponer de una herramienta que permita la identificación de transiciones en vídeos. La detección de transiciones es una tareas que puede llegar a ser muy compleja debido a la naturaleza de la transición, desde un cambio abrusco (fácil) hasta una transición gradual con movimiento (difícil). Para este trabajo se utilizará un enfoque dinámico adaptativo a través de medidas del flujo óptico y comparación de histogramas.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster Visión Artificial</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Java o C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2011)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Emilio Almazán
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_cambiosEscenas.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFM">Detección y contextualización de familias de objetos mediante sistemas de recuperación de imágenes basados en contenido</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFM del Master en Investigación en Sistemas HW y SW Avanzados se pretende disponer de una herramienta que permita la identificación de contenido a través del uso de colecciones de datos disponibles en Internet haciendo como caso de estudio la búsqueda de carátulas de CDs.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Máster MISHA</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Java o C++, OpenCV</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2010)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: Luis Ignacio Díaz del Dedo
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfm_OpenVoV.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+
+
+<!-- *************************************************************************************************************************************** -->
+
+
+
+
+
+<br><br>
+					<div align="center" class="tiposPFC">Proyectos de Fin de Carrera o Trabajos de Fin de Grado Dirigidos</div>
+<br>
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Sistema de Registro de Eventos URJC mediante Código QR de la Tarjeta TUI</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende crear una app móvil de gestión de inscripciones de estudiantes en eventos utilizando el QR de la TUI virtual de la URJC App. El organizador del evento cargará la aplicación, leerá los códigos QR de los estudiantes asistentes y creará un listado de estudiantes registrados que podrá utilizarlo para compartirlo con el servicio de Reconocimiento Académico de Créditos a través de su respectiva facultad/escuela.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Procesamiento de imágenes, integración de frameworks, Android o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2021)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: José Ignacio Gaitán
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Detección Visual de Aparcamiento mediante la Aplicación de Redes Neuronales</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFG se propondrá la utilización de redes neuronales de segmentación para extraer la profundidad de una escena tomada mediante cámaras monoculares. Su aplicación final podrá ser la de detectar espacios de aparcamiento en la ciudad.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Procesamiento de imágenes, frameworks de deep learning (Tensorflow, Keras,...) o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Noviembre 2020)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Ruben Oliver Dolera
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_smartParking.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Análisis Visual Automático del Test de Porsolt en Ratas</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende analizar visual y automáticamente el comportamiento de ratas nadando en cubetas de agua. El test de Porsolt al que se refiere este experimento sirve para hacer un screening de fármacos antidepresivos. Este TFM se hará en contacto directo con investigadores de Farmacología de la URJC.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Procesamiento de imágenes o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Septiembre 2019)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Susana Pineda
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_porsolt.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Visor Web de Modelos BIM en el Ámbito de la Edificación Inteligente</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El objeto de esta parte del proyecto es la creación de una serie de aplicaciones que permitan la visualización de la información contenida en los modelos BIM ya desarrollados. Estas aplicaciones estarían enfocadas a tres tipos de usuarios finales de la Universidad: el servicio de mantenimiento de campus, la Unidad de Servicios Informáticos, y el departamento de implantaciones.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Desarrollo web, Node.js, Angular, Autodesk o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Septiembre 2019)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Susana Pineda
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_BIM.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Creación de un Chatbot Universitario para Resolución de Dudas de Estudiantes (Co-Tutora: Soto Montalvo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFG se pretende utilizar tecnología accesible (IBM Watson, Microsoft Azure, Google Dialogflow, etc.) para la creación de un chatbot con una base de conocimiento adecuada para responder las dudas de los estudiantes de la universidad. Se podría partir de una guía como: https://edubotdocs.blob.core.windows.net/edubotdocs/EDUBotManual_v1.pdf.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Procesamiento de Lenguaje Natural, programación Python o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2019)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Javier Martín
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_chatbot.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Selección Paramétrica para Redes de Detección YOLO (co-tutor: David Concha)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se creará una interfaz para la selección de parámetros de una red de detección You Only Look Once (YOLOv3) y hacer experimentación de detección de objetos con la configuración elegida.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Aprendizaje profundo, redes neuronales convolucionales, procesamiento de imágenes o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2019)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Santiago Marcos
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_parametrosYOLO.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Análisis de la Tensoflow Object Detection API para la detección visual de contenedores de residuos en imágenes</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende analizar el rendimiento del API de Tensorflow ofrecido por Google para la detección de objetos en imágenes. Además, se pretende hacer una comparativa de cada arquitectura de red disponible en el API y entrenada con contenedores de residuos urbanos a través de un conjunto de imágenes de la ciudad.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Aprendizaje profundo, redes neuronales convolucionales, procesamiento de imágenes o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Octubre 2018)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Eva Moreno
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_comparativaRedesDeteccion.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>	
+
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Estudio de técnicas de entrenamiento de redes neuronales profundas para su aplicación en ciudades inteligentes</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende crear un sistema de visión artificial que funcione de manera embarcada en un vehículo para la detección visual en tiempo real de otros vehículos en imágenes. Se hará uso de datasets reales, extraídos a partir de Google Street View o propias, y sintéticos, mediante las colecciones SYNTHIA y CITYSCAPES.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Aprendizaje profundo, redes neuronales convolucionales, procesamiento de imágenes o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2018)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Mario Conejos Basanta
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_RedesDeteccionVehiculos.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>	
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Evaluación de la calidad del asfaltado mediante sensores de bajo coste: visión artificial y sensores inerciales</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende crear una aplicación de móvil capaz de determinar el estado de la carretera mediante el uso de sensores inerciales y una evaluación visual durante la conducción. De esta forma, un móvil ejecutando la aplicación durante un viaje en un vehículo evaluará y registrará las coordenadas GPS de las zonas más deterioradas de la calzada, para posteriormente crear un registro visual georreferenciado en un mapa.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Programación Android, Java, procesamiento de imágenes o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2017)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Brandan José González
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_baches.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">ToyCNN: Construcción de la una red neuronal convolucional a bajo nivel (co-tutor: Alfredo Cuesta)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende crear una arquitectura de red neuronal convolucional desde su base, y comparar su rendimiento frente a frameworks establecidos para el propósito de entrenarla y probarla en una problema de clasificación de entradas.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Programación C/C++, procesamiento de imágenes, aprendizaje profundo o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2017)</span></td>
+									</tr> 
+									<tr><td></td></tr>
+
+									<tr>
+										<td>Autor: Sergio Hernández
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_toycnn.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Scanner-Cam (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende desarrollar una aplicación que permita escanear por partes un documento a través de una pequeña cámara de consumo tipo webcam, cámara de móvil o similar y reconstruir dicho documento.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Directshow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2017)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Samuel Fernández
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_scannercam.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Herramientas para la Estimación Automática de la Ocupación en Aparcamientos</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se abordará el estudio del grado de ocupación de aparcamientos de vehículos con el fin de crear informes de resultados automatizados en función de los diferentes usos horarios. La idea consiste en desarrollar una serie de aplicaciones funcionales e intuitivas, que sirvan como herramientas para la estimación automática de ocupación de los aparcamientos.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Grado</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C/C++, OpenCV, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2016)</span></td>
+									</tr> 
+									<!--<tr><td>Blog: <a href="http://rtorresb.wordpress.com/" target="_blank">http://rtorresb.wordpress.com/</a></td></tr>-->
+									<tr>
+										<td>Autor: Alejandro Magaña Castro
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_aparcamientos.png" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Analisis Automático de Estadísticas en Partidos de Fútbol</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En retransmisiones deportivas, muchas estadísticas que se ofrecen se calculan de manera manual a través del seguimiento de los deportistas. En este proyecto se pretende desarrollar algoritmos que calculen de manera automática determinadas acciones tales como fuera de juego o el seguimiento de determinados jugadores en partidos de fútbol. Es recomendable, aunque no obligatorio, conocer un lenguaje de programación como C/C++ o Matlab y tener conocimientos previos de visión artificial.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Grado</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C/C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Octubre 2015)</span></td>
+									</tr> 
+									<tr>
+										<td>Autor: Diego Moreno Lennon
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_analisisPartidosFutbol.png" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+		 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">DenunciaCar: Visión artificial para la denuncia de infracciones de tráfico en una aplicación Android</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Los dispositivos móviles han adquirido una gran importancia dentro de las arquitecturas de consumo por ofrecer buenas capacidades de cómputo en teléfonos inteligentes o tablets. En este proyecto se pretende hacer uso de dichas capacidades programables en los dispositivos móviles para crear una aplicación colaborativa de denuncia de infracciones de vehículos en carretera o entornos urbanos (vehículos mal aparcados, etc.) a través de la captura de forma automática de la matrícula del vehículo a partir de una fotografía.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Grado</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Java, C/C++, OpenCV, OpenGL o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2014)</span></td>
+									</tr> 
+									<!--<tr><td>Blog: <a href="http://rtorresb.wordpress.com/" target="_blank">http://rtorresb.wordpress.com/</a></td></tr>-->
+									<tr>
+										<td>Autor: Francisco José García Espinosa
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_matriculaAndroid.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+<br>
+
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Analisis Automático de Estadísticas en Partidos de Fútbol</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En retransmisiones deportivas, muchas estadísticas que se ofrecen se calculan de manera manual a través del seguimiento de los deportistas. En este proyecto se pretende desarrollar algoritmos que calculen de manera automática determinadas acciones tales como fuera de juego o el seguimiento de determinados jugadores en partidos de fútbol. Es recomendable, aunque no obligatorio, conocer un lenguaje de programación como C/C++ o Matlab y tener conocimientos previos de visión artificial..<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Grado</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C/C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2014)</span></td>
+									</tr> 
+									<tr>
+										<td>Autor: Sergio Andrés García
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_seguimientoJugadoresFutbol.png" width=200>
+							</td>
+						</tr>
+					</table>
+					<br>
+<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloTFG">Super-Resolución en GPU (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El objetivo de este proyecto es el estudio de un algoritmo de super-resolución utilizando una plataforma CPU y una plataforma híbrida CPU+GPU que acelere algunas de las etapas algorítmicas constituyentes. La idea es utilizar la técnica de <i>Orthogonal Matching Pursuit</i> (OMP) e implementar etapas altamente paralelizables que tienen lugar en todo el proceso de superresolución para, dados dos diccionarios de baja y alta resolución, respectivamente, conseguir de una imagen de alta resolución proveniente de una de baja.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 GII, GIC o GIS</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, Matlab, CUDA o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Julio 2013)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Manuel Mora
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/tfg_superresolucion.jpg">
+							</td>
+						</tr>
+					</table>
+<br>
+
+
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Pizarra Virtual (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El objetivo de este proyecto es el desarrollo de una aplicación informática que permita a un usuario hacer dibujos en un ordenador, utilizando para ello el movimiento de las manos.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Directshow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2013)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://felix2603.googlepages.com/home" target="_blank">http://felix2603.googlepages.com/home</a></td></tr>
+									<tr>
+										<td>Autor: Félix Ruiz Banegas
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_pizarra.jpg">
+							</td>
+						</tr>
+					</table>
+<br>
+
+
+ 					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Autolocalización visual (planar) mediante dispositivos Android de bajas prestaciones (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se propone el uso de un móvil con sistema operativo Android para realizar una calibración y autolocalización visual mediante su cámara. Para ello se trabajará con OpenCV y algún método de detección de puntos característicos junto a su seguimiento a través del análisis del flujo óptico.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> OpenCV, C++, Java o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2013)</span></td>
+									</tr>
+						                  <!--<tr><td>Blog: <a href="http://cbirurjc.wordpress.com/" target="_blank">http://cbirurjc.wordpress.com/</a></td></tr>-->
+									<tr>
+										<td>Autor: José Luis Vara
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_autolocalizacion.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					
+					
+
+ 					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Recuperación de Imágenes basada en Contenido II (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> La recuperación de imágenes basada en contenido es una línea de investigación e interés creciente que puede tener especial interés en buscadores de imágenes, etiquetación automática, redes sociales, etc.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Java o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Diciembre 2011)</span></td>
+									</tr>
+						                  <tr><td>Blog: <a href="http://cbirurjc.wordpress.com/" target="_blank">http://cbirurjc.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: Javier Manso
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_CBIR_II.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Procesamiento de imagen y seguimiento visual en arquitecturas Cell (co-tutor: Raul Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFC se pretende poner a punto un simulador del procesador de una videoconsola Playstation3 para realizar cómputo intensivo de procesamiento de imágenes. Dicha arquitectura está basada en un multiprocesador heterogeneo vectorial compuesto por 8 SPUs (Synergistic Processor Unit) y 1 PPU (PowerPC Unit) de IBM que cambiará en gran medida el mundo de las arquitecturas de bajo coste.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, Fedora Core 5, CellSDK, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2011)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://cellprogramming.wordpress.com/" target="_blank">http://cellprogramming.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: Javier S&aacute;nchez Egido
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_cell.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Multitouch Visual (co-tutor: Javier Hernández)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este PFC se desarrollará una pantalla multitouch a través de técnicas de visión artificial para ilustrar su funcionamiento en un videojuego basado en visión artificial.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2011)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://multitouchvisual.blogspot.com/" target="_blank">http://multitouchvisual.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: Diana Gil "Saysa"
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_multitouch.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Seguimiento de Movimiento Articulado utilizando Hardware Gráfico (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFC se desarrollará una solución de seguimiento visual del movimiento articulado haciendo uso de las prestaciones del hardware gráfico. En particular se utilizará el pipeline de renderizado a través de la programación de shaders en NVIDIA Cg para evaluar las etapas computacionales de un filtro de partículas. La solución será mucho más eficiente que si se evaluara en CPU debido a la potencia del rasterizador de una GPU de consumo en comparación con cualquier CPU.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenGL y Nvidia Cg, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2011)</span></td>
+									</tr>
+									<tr><td></td></tr>
+									<tr>
+										<td>Autor: David Concha Gómez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_articulado.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Filtro de Partículas para Visión Estereoscópica (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Este PFC continuará las líneas del PFC "Pizarra Virtual", creando una aplicación que incida en los temas del control de vibraciones en la estimación del seguimiento para la aplicación de pizarra virtual con el uso de una cámara. Además, el filtro de partículas se utilizará para estimar la posición 3D de los objetos a seguir a través de un sistema de visión esteroscópico.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Diciembre 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://pfcinescalvo.wordpress.com/" target="_blank">http://pfcinescalvo.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: Inés Calvo Felipe
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_PF3D.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+ 					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Extracción de Características para Recuperación de Imágenes basada en Contenido (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> La recuperación de imágenes basada en contenido es una línea de investigación e interés creciente que puede tener especial interés en buscadores de imágenes, etiquetación automática, redes sociales, etc.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Java o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Diciembre 2010)</span></td>
+									</tr>
+							     <tr><td>Blog: <a href="http://cbir3.wordpress.com/" target="_blank">http://cbir3.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: Álvaro Bermejo
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_CBIR_I.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Scanner-Cam  (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende desarrollar una aplicación que permita escanear por partes un documento a través de una pequeña cámara de consumo tipo webcam, cámara de móvil o similar y reconstruir dicho documento.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Septiembre 2010)</span></td>
+									</tr> 
+									<tr><td>Blog: <a href="http://scannercampfc.wordpress.com/" target="_blank">http://scannercampfc.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: Juan Rinconada
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_scannerCam.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Filtro de Partículas para Seguimiento de Grupos (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Contar personas en una secuencia de vídeo es una tarea relativamente sencilla para un humano, pero que en condiciones generales es muy compleja para una máquina. En este PFC se creará una aplicación con propósitos de seguridad y videovigilancia, que pueda etiquetar la presencia de individuos que se agrupen y desagrupen en secuencias de imágenes.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Septiembre 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://javiergutierrezpfc.wordpress.com/" target="_blank">http://javiergutierrezpfc.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: Javier Gutiérrez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_seguimientoGrupos.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Análisis de Actividades en Entorno Deportivo: Seguimiento de jugadores (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se trabajará con secuencias de partidos de fútbol y se intentará realizar un seguimiento e identificación de los jugadores presentes en las escenas. Se trabajará a través de OpenCV y las secuencias de campo más abiertas, donde hay mayor presencia de jugadores en escena.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Septiembre 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://nachorodriguezpfc.wordpress.com/" target="_blank">http://nachorodriguezpfc.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: Ignacio Rodríguez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_seguimientoJugadores.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Reconstrucción de PET mediante CUDA: una aproximación paralela (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> CUDA es una nueva arquitectura software/hardware para el desarrollo de aplicaciones de altas prestaciones basadas en cómputo sobre hardware gráfico. En este proyecto se pretende incorporar CUDA a aplicaciones tipo benchmark para realizar una comparativa de rendimiento bruto.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenGL, Cg, CUDA, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://pfccpp.wordpress.com/" target="_blank">http://pfccpp.wordpress.com/</a></td></tr>
+									<tr>					
+										<td>Autor: Santi García Sánchez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_reconstruccion.jpg">
+							</td>
+						</tr>
+					</table>
+
+					<br>
+					
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Seguimiento Visual mediante Playstation 3 (co-tutor: Raul Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFC se pretende programar el multiprocesador de una videoconsola Playstation3 para realizar cómputo intensivo de procesamiento de imágenes. Dicha arquitectura está basada en un multiprocesador heterogeneo vectorial compuesto por 8 SPUs (Synergistic Processor Unit), 6 útiles, y 1 PPU (PowerPC Unit) de IBM que cambiará en gran medida el mundo de las arquitecturas de bajo coste.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, Fedora Core 5, CellSDK, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2010)</span></td>
+									</tr>
+									<tr><td><!--Blog: <a href="http://cellprogramming.wordpress.com/" target="_blank">http://cellprogramming.wordpress.com/</a>--></td></tr>
+									<tr>
+										<td>Autor: Alberto Matías
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_cell.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+ 					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Modelado de escenarios para aplicaciones de videovigilancia (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Se trata de crear un entorno de videovigilancia que integre una serie de técnicas generales de procesamiento de imágenes y vídeo para crear diversas aplicaciones de videovigilancia o análisis de escenarios mediante visión artificial. Es posible que para el proyecto se pueda contar con un sistema inalámbrico de envío de imágenes a un nodo central.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Lenguaje de alto nivel tipo C/C++ o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2010)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Antonio Collazos
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_modelado.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+ 					<table width="700" ID="Table29" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Ampliaci&oacute;n del Opt&oacute;fono</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> 
+										 En este proyecto se ampliará el desarrollo 
+											del opt&oacute;fono original.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> MATLAB y/o C/C++ o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Junio 2010)</span></td>
+									</tr>
+									<!--<tr><td>Blog: <a href="http://greymora.wordpress.com/" target="_blank">http://greymora.wordpress.com/</a></td></tr>-->
+ 
+									<tr>
+										<td>Autor: Guillermo Rey
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_ampliacionOptofono.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+ 					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">BusVigía: Análisis en tiempo real de la circulación para el control de un Carril-Bus (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Se trata de crear un entorno de videovigilancia que integre una serie de técnicas generales de procesamiento de vídeo y videovigilancia y que pueda procesar en arquitecturas heterogéneas (CPU y GPU fundamentalmente). Es posible que para el proyecto se pueda contar con un sistema inalámbrico de envío de imágenes a un nodo central.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Lenguaje de alto nivel tipo C/C++ o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2010)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: David Fernández
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_emt.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Análisis de Actividades en Entorno Deportivo: Autolocalización y Seguimiento (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se trabajará con secuencias de partidos de fútbol y se intentará autolocalizar la cámara desde la que se visualiza el campo de juego. Se trabajará a través de OpenCV y se buscarán ciertos parámetros en el campo como puntos salientes y otras características (líneas, heurísticos,...).<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Mayo 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://www.diegotapiador.blogspot.com/" target="_blank">http://www.diegotapiador.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: Diego Tapiador
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_seguimientoLineas.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+ 					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Seguimiento visual con filtros de partículas hibridados con algoritmos meméticos (co-tutor: Juan José Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table30" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> La combinación de los filtros de partículas como estimadores secuenciales con algoritmos meméticos para refinamientos en la evaluación de los filtros de partículas pueden dar buenos resultados cualitativos y cuantitativos. En este proyecto se pretende estudiar dicho comportamiento.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> Lenguaje de alto nivel tipo C/C++ o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Abril 2010)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Javier Hernández Sánchez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_MAPF.jpg" width="200">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Cámara Estadística: Control de velocidad (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> La ciudad es un entorno complejo, dinámico y lleno de datos. Las cámaras inteligentes reciben y procesan imágenes para ofrecer información de más alto nivel. En este proyecto se creará una aplicación inteligente que almacene las estadísticas que un experto decida a través de una serie de reglas en un escenario preparado para controlar la velocidad a través de balizas virtuales de una cierta vía.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Ene. 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://camaraestadistica.blogspot.com" target="_blank">http://camaraestadistica.blogspot.com</a></td></tr>
+									<tr>
+										<td>Autor: Roberto Sánchez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_camaraEstadistica.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Computación distribuida en hardware gráfico para reconstrucción de imágenes médicas (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se extenderá la funcionalidad de un cluster para poder hacer uso de plataformas GPU son soporte para Nvidia CUDA, continuando el proyecto desarrollado anteriormente GPGPU@home y se aplicará a un problema de reconstrucción de imagen médica.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, CUDA, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Ene. 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://macudapfc.wordpress.com/ " target="_blank">http://macudapfc.wordpress.com/ </a></td></tr>
+									<tr>
+										<td>Autor: Miguel Ángel Jiménez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_clusterGPU2.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Interfaces "Minority-Report" para navegación en mapas (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende desarrollar una interfaz de usuario que permita navegar a través de los mapas de GoogleMaps o similares a través del movimiento de las manos.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Directshow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Ene. 2010)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://mapsnavigation.blogspot.com/" target="_blank">http://mapsnavigation.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: Miguel Ángel Ntugu
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_maps2.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Interfaces de usuario Minority Report 2 (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Este PFC continuará las líneas que dejó "Interfaces de Usuario Minority Report", con un control del sistema gestor de ventanas a partir de una cámara.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Sep. 2009)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://enelprincipio.wordpress.com" target="_blank">http://enelprincipio.wordpress.com</a></td></tr>
+									<tr>
+										<td>Autor: Carlos Martín Mora
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_minorityReport2.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Reconstrucción de vídeo a partir de fotografías temporalmente distantes (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> A partir de una colección de imágenes del mismo escenario dinámico pero tomadas en instantes diferentes, se aplicarán métodos de reconstrucción para crear un vídeo que minimice los problemas de iluminación, movimiento y posición de las capturas.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2009)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://pfc-jesus.blogspot.com/" target="_blank">http://pfc-jesus.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: Jesús Lorenzo Morales
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_reconstruccionVideo.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Cluster heterogéneo de procesadores gráficos para cómputo de propósito general (co-tutor: Raúl Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Las tarjetas gráficas actuales poseen mucha capacidad de cómputo disponible para problemas de gran envergadura. Este tipo de problemas suelen necesitar grandes cantidades de memoria por lo que una opción es realizar particiones de datos capaces de ser procesadas por separado mediante diferentes procesadores. En este proyecto se pretende utilizar una red de tarjetas gráficas (esclavos) para procesar independientemente porciones de datos y devolver un resultado único a una máquina que hace las labores de procesador maestro en una arquitectura de maestro/esclavo. Se mostrará especial atención a las labores de rendimiento frente al tiempo invertido en las comunicaciones.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenGL, Cg, CUDA, MPI, PVM o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2009)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://degryll-pfc.blogspot.com/" target="_blank">http://degryll-pfc.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: David Concha Gómez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_clusterGPU.png">
+							</td>
+						</tr>
+					</table>
+					<br>
+
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Detección de objetos abandonados en estancias controladas (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende desarrollar una aplicación informática orientada a la seguridad que detecte el abandono de objetos en zonas de paso.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Directshow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2009)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://objetosabandonados.blogspot.com/" target="_blank">http://objetosabandonados.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: Antonio Collazos
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_objetosAbandonados.jpg">
+							</td>
+						</tr>
+					</table>
+
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Interfaces "Minority-Report" basadas en seguimiento visual (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende desarrollar una interfaz de usuario que permita controlar el ordenador a través del movimiento de las manos.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Directshow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Sep. 2008)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://pfc-minorityreport.blogspot.com/" target="_blank">http://pfc-minorityreport.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: Alexis Martín Montero
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_minority.jpg">
+							</td>
+						</tr>
+					</table>
+					<br><br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Filtros de Partículas con Realimentación basada en Memoria (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Los filtros de partículas son métodos muy utilizados en 
+										tareas de seguimiento de características, objetos, planos,... Esta técnica es generalmente 
+										utilizada y exitosa mientras exista realimentación visual, pero a diferencia de otras técnicas 
+										(como los filtros de Kalman), no poseen claros mecanismos de control cuando se pierde la 
+										realimentación visual. En este TFC se propone la implementación y experimentación exhaustiva 
+										de un sistema híbrido entre los Filtros de Kalman y de Partículas. <br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> MATLAB, C++, Directshow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2008)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://projektzenko.blogspot.com/search/label/pfc" target="_blank">http://projektzenko.blogspot.com/</a></td></tr>
+									<tr>
+										<td>Autor: Javier Hernández Sánchez
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_memoryPF.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Interfaces "Minority-Report" para navegación en mapas (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se pretende desarrollar una interfaz de usuario que permita navegar a través de los mapas de GoogleMaps o similares a través del movimiento de las manos.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenCV, Directshow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2008)</span></td>
+									</tr>
+									<tr><td>Blog: <a href="http://navegacionenmapas.wordpress.com/" target="_blank">http://navegacionenmapas.wordpress.com/</a></td></tr>
+									<tr>
+										<td>Autor: David Fernández
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_googlemaps.jpg" width=200>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Seguimiento visual de planos implementado en la GPU (co-tutor: Jos&eacute; Miguel Buenaposada)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este TFC se pretende implementar un sistema de seguimiento de planos, ya desarrollado con anterioridad (implementación disponible en C++), sobre la tarjeta gráfica. Y es que las tarjetas de vídeo actuales poseen Unidades de Procesamiento Gráfico (GPU) que, en muchos casos, poseen más potencia de cálculo y número de transistores que las CPUs del momento.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist. o Superior</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, OpenGL, Cg, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2008)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Luis Alexis
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_segPlanos.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Segmentación de vídeo en tiempo real mediante técnicas de partición de grafos (co-tutor: Abraham Duarte)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Una interesante línea en el procesamiento de vídeo es la segmentación de objetos.
+											En este proyecto se pretende utilizar técnicas probadas en problemas de segmentación de imágenes para su uso  
+											en streams de vídeo.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist.</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, DirectShow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2007)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Emilio Almaz&aacute;n
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_segmentGraph.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Estudio de FBOs y pBuffers para procesamientos multipasada en GPU(co-tutor: Ra&uacute;l Cabido)</span></td>
+						</tr>
+						<tr>
+							<td><table border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Las tarjetas gráficas son actualmente programables y ofrecen funcionalidad para el 
+											desarrollo de aplicaciones gráficas. Sin embargo, esta funcionalidad puede ser aprovechable para distintos usos, entre ellos
+											la computación científica. Los FBO (Frame Buffer Objects) así como los pBuffers (Pixel Buffers) permiten redirigir la salida de un proceso de renderizado a la entrada
+											del camino de ejecución de una tarjeta gráfica. En este trabajo se hará un estudio en profundidad del rendimiento de cada una
+											de las alternativas.
+<!--, mientras que los PBO (Pixel Buffer Object) permiten una comunicación asíncrona entre la memoria principal y la de vídeo, aprovechable en transferencias de streams de vídeo--><br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Técnica Inf. Sist.</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, DirectShow, o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2006)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Sergio García
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_FBOvsPBuffers.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table25" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Seguimiento de Objectos M&oacute;viles en Tiempo Real (co-tutor: 
+										Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table26" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se estudiar&aacute;n 
+											t&eacute;cnicas de seguimiento de objetos en secuencias de im&aacute;genes 2D. 
+											Las aplicaciones ser&aacute;n optimizadas para ser utilizadas en tiempo real y 
+											sacar m&aacute;ximo provecho a los procesadores.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C, DirectShow, extensiones multimedia MMX/SSE/SSE2</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2005)</span><br>
+											<a href="http://www.youtube.com/watch?v=lWM0z6Z6-zg" target="_blank">V&iacute;deo 1</a><br>
+											<a href="http://www.youtube.com/watch?v=x5C5fDSvygo" target="_blank">V&iacute;deo 2</a><br>
+											<a href="http://www.youtube.com/watch?v=BZ04T9VICy4" target="_blank">V&iacute;deo 3</a>
+										</td></td>
+									</tr>
+									<tr>
+										<td>Autor: Guillermo Ortega</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_PF_SSE.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Filtro de Part&iacute;culas con B&uacute;squeda Dispersa para el Desarrollo de Interfaces de Usuario Avanzadas (co-tutor: 
+										Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table18" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se integrar&aacute;n t&eacute;cnicas 
+											de seguimiento de m&uacute;ltiples objetos con el control de la interfaz gr&aacute;fica 
+											estudiada en proyectos anteriores. Asimismo, se har&aacute; un estudio experimental exhaustivo.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, DirectShow</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2005)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Miguel Ruiz Mu&ntilde;oz</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_secSSPF-raton.jpg"></td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table17" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Procesamiento sobre GPU vs. CPU</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table18" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se comparan t&eacute;cnicas 
+											de procesamiento de altas prestaciones sobre plataformas CPU y GPU mediante la 
+											implementaci&oacute;n de diferentes problemas matriciales de elevado coste 
+											computacional.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Sup. Informática</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C, OpenGL, Cg, BrookGPU, extensiones multimedia MMX/SSE/SSE2</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2005)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Enrique Torres</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_brookgpu.jpg"></td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table23" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Filtro de Part&iacute;culas con B&uacute;squeda Dispersa para 
+										seguimiento de m&uacute;ltipes objetos: aplicaci&oacute;n al seguimento humano 
+										(co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table24" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> En este proyecto se estudiar&aacute; y se 
+											implementar&aacute; una soluci&oacute;n para el an&aacute;lisis del movimiento 
+											humano en tiempo real basado en la hibridaci&oacute;n del filtro de 
+											part&iacute;culas con alg&uacute;n método de b&uacute;squeda.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, DirectShow</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2005)</span><br>
+											<a href="http://www.escet.urjc.es/~jjpantrigo/documentos/MemoriaPartFiltSSFeb05.pdf">
+												Memoria del Proyecto</a> (formato .pdf; 6 MB).<br>
+											<a href="http://www.escet.urjc.es/~jjpantrigo/documentos/CaraManos.avi">V&iacute;deo</a>
+											(formato .avi; 3.6 MB)</td>
+									</tr>
+									<tr>
+										<td>Autor: Oscar Varela</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_secPF-SS.jpg"></td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table21" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Visual-Rat&oacute;n</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table22" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo de un 
+											sistema de seguimiento de alguna característica humana identificable mediante 
+											un sensor óptico. Dicho seguimiento se utilizará para el posicionamiento del 
+											cursor del ratón generando así un visual-ratón.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++, DirectShow o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2005)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Jos&eacute; Antonio Almena</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_visualRaton.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table13" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Procesamiento de altas prestaciones de im&aacute;genes mediante 
+										hardware gr&aacute;fico de consumo: Template Matching sobre la GPU</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table14" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El proyecto consiste en realizar un estudio de 
+											las nuevas propuestas de las principales marcas comerciales de hardware 
+											gr&aacute;fico para la programaci&oacute;n a bajo nivel de sus tarjetas. En 
+											concreto se estudiar&aacute;n el lenguaje de alto nivel Cg de Nvidia. Como 
+											aplicaci&oacute;n se crear&aacute;n <i>pixel shaders</i> para aplicarlos al 
+											template matching como t&eacute;cnica de reconocimiento de patrones.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1 Ing. Sup. Informática</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C, OpenGL, Cg</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Sept. 2004)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Raúl Cabido Valladolid</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_templateMatching.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table11" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Sonificaci&oacute;n de im&aacute;genes en color 2-D</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table12" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+											aplicaci&oacute;n de un sencillo sistema de sonificaci&oacute;n que transforme 
+											una se&ntilde;al visual simplificada (imagen bidimensional o sint&eacute;tica) 
+											en una se&ntilde;al de audio equivalente, usando el color de la imagen como 
+											nueva caracter&iacute;stica a modelar con un sistema borroso.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C o MATLAB o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Feb. 2004)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Rodrigo Blasco P&eacute;rez</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_optofonoColor.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table9" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Aplicaci&oacute;n de tratamiento de im&aacute;genes usando OpenGL</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table10" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> OpenGL es un est&aacute;ndar multiplataforma 
+											especializado en la generaci&oacute;n de gr&aacute;ficos 3D por 
+											aceleraci&oacute;n hardware. En este proyecto el alumno se apoyar&aacute; en 
+											esta librer&iacute;a para dise&ntilde;ar una aplicaci&oacute;n de tratamiento 
+											de secuencias de im&aacute;genes de altas prestaciones.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C, Win32 o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Sept. 2003)</span></td>
+									</tr>
+									<tr>
+										<td>Autora: Laura García Plaza</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_OGL_imagenes.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table7" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Aplicaci&oacute;n del filtro de Part&iacute;culas al seguimiento 
+									de objetos en secuencias de im&aacute;genes (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table8" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+											evaluaci&oacute;n del filtro de part&iacute;culas para secuencias de 
+											im&aacute;genes en diferentes condiciones experimentales (oclusi&oacute;n, 
+											varios objetos, movimientos no plano paralelos,...).<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> MATLAB o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2003)</span><br>
+											<a href="documentos/MemoriaParticulasJun03.pdf">Memoria del Proyecto</a> (formato 
+											.pdf; 4.2 MB).<br>
+											<a href="documentos/particulas.avi">V&iacute;deo</a> (formato .avi; 1.0 MB)</td>
+									</tr>
+									<tr>
+										<td>Autora: Eva Burgue&ntilde;o Raigal</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_PF.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table5" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Aplicación del filtro de Kalman al seguimiento de objetos en 
+									secuencias de im&aacute;genes (co-tutor: Juanjo Pantrigo)</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table6" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+											evaluaci&oacute;n del filtro de Kalman para secuencias de im&aacute;genes en 
+											diferentes condiciones experimentales (oclusi&oacute;n, movimientos no plano 
+											paralelos,...).<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> MATLAB o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2003)</span><br>
+											<a href="documentos/MemoriaKalmanJun03.pdf">Memoria del Proyecto</a> (formato 
+											.pdf; 1.4 MB)</td>
+									</tr>
+									<tr>
+										<td>Autora: Patricia Rodr&iacute;guez Mu&ntilde;oz</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_kalman.jpg">
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table3" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Sonificaci&oacute;n de im&aacute;genes 2-D</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table4" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+											aplicaci&oacute;n de un sencillo sistema de sonificaci&oacute;n que transforme 
+											una se&ntilde;al visual simplificada (imagen bidimensional o sint&eacute;tica) 
+											en una se&ntilde;al de audio equivalente, usando diferentes m&eacute;todos de 
+											preprocesamiento y segmentaci&oacute;n a modo de opt&oacute;fono.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++ o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2003)</span><br>
+											<a href="documentos/MemoriaSonificacionJun03.pdf">Memoria del Proyecto</a> (formato 
+											.pdf; 2.0 MB)</td>
+									</tr>
+									<tr>
+										<td>Autor: Alberto Luis Corrales Hermoso</td>
+									</tr>
+								</table>
+							</td>
+							<td><img src="imagenes/pfc_optofono.gif"></td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table1" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Aplicaci&oacute;n de la l&oacute;gica borrosa a la 
+									segmentaci&oacute;n de im&aacute;genes</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table2" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> Se plantea el desarrollo de un sistema basado 
+											en reglas "fuzzy" (l&oacute;gica borrosa) que permita establecer criterios de 
+											similitud entre regiones adyacentes para agruparlas/separarlas, resultantes de 
+											un proceso de segmentaci&oacute;n de im&aacute;genes. El sistema se 
+											validar&aacute; con diferentes im&aacute;genes de prueba.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 2</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> MATLAB</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Jun. 2002)</span></td>
+									</tr>
+									<tr>
+										<td>Autores: Ra&uacute;l Cabido Valladolid y Jes&uacute;s Gil Fern&aacute;ndez</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<table width="700" ID="Table15" border="1" cellpadding="0" cellspacing="0" class="pequena">
+						<tr>
+							<td colspan="2"><span class="tituloPFC">Dise&ntilde;o e Implementaci&oacute;n de una Aplicaci&oacute;n 
+									para Detecci&oacute;n de Movimiento</span></td>
+						</tr>
+						<tr>
+							<td><table ID="Table16" border="0" class="pequena">
+									<tr>
+										<td><b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+											aplicaci&oacute;n de un sistema de detecci&oacute;n de movimiento mediante el 
+											c&aacute;lculo del flujo &oacute;ptico en secuencias de im&aacute;genes en 
+											formato mpeg.<br>
+										</td>
+									</tr>
+									<tr>
+										<td><b>N&uacute;mero de participantes:</b> 1</td>
+									</tr>
+									<tr>
+										<td><b>Requisitos:</b> C++ o disposici&oacute;n a aprender</td>
+									</tr>
+									<tr>
+										<td><span class="finalizado">Finalizado (Sept. 2001)</span></td>
+									</tr>
+									<tr>
+										<td>Autor: Te&oacute;filo Romera</td>
+									</tr>
+								</table>
+							</td>
+							<td>
+							</td>
+						</tr>
+					</table>
+					<!-- 					
+					<ul>
+						<li>
+							<b><i>Procesamiento de altas prestaciones de im&aacute;genes mediante hardware 
+									gr&aacute;fico de consumo: Template Matching sobre la GPU</i></b><br>
+							<b>Breve descripci&oacute;n:</b> El proyecto consiste en realizar un estudio de 
+							las nuevas propuestas de las principales marcas comerciales de hardware 
+							gr&aacute;fico para la programaci&oacute;n a bajo nivel de sus tarjetas. En 
+							concreto se estudiar&aacute;n el lenguaje de alto nivel Cg de Nvidia. Como 
+							aplicaci&oacute;n se crear&aacute;n <i>pixel shaders</i> para aplicarlos al 
+							template matching como t&eacute;cnica de reconocimiento de patrones.<br>
+							<b>N&uacute;mero de participantes:</b> 1 Ing. Sup. Inf.<br>
+							<b>Requisitos:</b> C, OpenGL, Cg<br>
+							<span class="finalizado">Finalizado (Sept. 2004)</span><br>
+							Autor: Ra&uacute;l Cabido Valladolid<br>
+							<br>
+						</li>
+						<li>
+							<b><i>Sonificaci&oacute;n de im&aacute;genes en color 2-D</i></b><br>
+							<b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+							aplicaci&oacute;n de un sencillo sistema de sonificaci&oacute;n que transforme 
+							una se&ntilde;al visual simplificada (imagen bidimensional o sint&eacute;tica) 
+							en una se&ntilde;al de audio equivalente, usando el color de la imagen como 
+							nueva caracter&iacute;stica a modelar con un sistema borroso.<br>
+							<b>N&uacute;mero de participantes:</b> 1<br>
+							<b>Requisitos:</b> C o MATLAB o disposici&oacute;n a aprender<br>
+							<span class="finalizado">Finalizado (Feb. 2004)</span><br>
+							Autor: Rodrigo Blasco P&eacute;rez<br>
+							<br>
+						</li>
+						<li>
+							<b><i>Aplicaci&oacute;n de tratamiento de im&aacute;genes usando OpenGL</i></b><br>
+							<b>Breve descripci&oacute;n:</b> OpenGL es un est&aacute;ndar multiplataforma 
+							especializado en la generaci&oacute;n de gr&aacute;ficos 3D por 
+							aceleraci&oacute;n hardware. En este proyecto el alumno se apoyar&aacute; en 
+							esta librer&iacute;a para dise&ntilde;ar una aplicaci&oacute;n de tratamiento 
+							de secuencias de im&aacute;genes de altas prestaciones.<br>
+							<b>N&uacute;mero de participantes:</b> 1<br>
+							<b>Requisitos:</b> C, Win32 o disposici&oacute;n a aprender<br>
+							<span class="finalizado">Finalizado (Sept. 2003)</span><br>
+							Autora: Laura Garc&iacute;a Plaza<br>
+							<br>
+						</li>
+						<li>
+							<b><i>Aplicación del filtro de Partículas al seguimiento de objetos en secuencias de 
+									im&aacute;genes (co-tutor: Juanjo Pantrigo)</i></b><br>
+							<b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+							evaluaci&oacute;n del filtro de part&iacute;culas para secuencias de 
+							im&aacute;genes en diferentes condiciones experimentales (oclusi&oacute;n, 
+							varios objetos, movimientos no plano paralelos,...).<br>
+							<b>N&uacute;mero de participantes:</b> 1<br>
+							<b>Requisitos:</b> MATLAB o disposici&oacute;n a aprender<br>
+							<span class="finalizado">Finalizado (Jun. 2003)</span><br>
+							<a href="documentos/MemoriaParticulasJun03.pdf">Memoria del Proyecto</a> (formato 
+							.pdf; 4.2 MB).<br>
+							<a href="documentos/particulas.avi">V&iacute;deo</a> (formato .avi; 1.0 MB)<br>
+							Autora: Eva Burgue&ntilde;o Raigal<br>
+							<br>
+						</li>
+						<li>
+							<b><i>Aplicación del filtro de Kalman al seguimiento de objetos en secuencias de 
+									im&aacute;genes (co-tutor: Juanjo Pantrigo)</i></b><br>
+							<b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+							evaluaci&oacute;n del filtro de Kalman para secuencias de im&aacute;genes en 
+							diferentes condiciones experimentales (oclusi&oacute;n, movimientos no plano 
+							paralelos,...).<br>
+							<b>N&uacute;mero de participantes:</b> 1<br>
+							<b>Requisitos:</b> MATLAB o disposici&oacute;n a aprender<br>
+							<span class="finalizado">Finalizado (Jun. 2003)</span><br>
+							<a href="documentos/MemoriaKalmanJun03.pdf">Memoria del Proyecto</a> (formato 
+							.pdf; 1.4 MB).<br>
+							<a href="documentos/kalman.avi">V&iacute;deo</a> (formato .avi; 7.0 MB).<br>
+							Autora: Patricia Rodr&iacute;guez Mu&ntilde;oz<br>
+							<br>
+						</li>
+						<li>
+							<b><i>Sonificaci&oacute;n de im&aacute;genes 2-D</i></b><br>
+							<b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+							aplicaci&oacute;n de un sencillo sistema de sonificaci&oacute;n que transforme 
+							una se&ntilde;al visual simplificada (imagen bidimensional o sint&eacute;tica) 
+							en una se&ntilde;al de audio equivalente, usando diferentes m&eacute;todos de 
+							preprocesamiento y segmentaci&oacute;n a modo de opt&oacute;fono.<br>
+							<b>N&uacute;mero de participantes:</b> 1<br>
+							<b>Requisitos:</b> C++ o disposici&oacute;n a aprender<br>
+							<span class="finalizado">Finalizado (Jun. 2003)</span><br>
+							<a href="documentos/MemoriaSonificacionJun03.pdf">Memoria del Proyecto</a> (formato 
+							.pdf; 2.0 MB).<br>
+							Autor: Alberto Luis Corrales Hermoso<br>
+							<br>
+						</li>
+						<li>
+							<b><i>Aplicaci&oacute;n de la l&oacute;gica borrosa a la segmentaci&oacute;n de 
+									im&aacute;genes</i></b><br>
+							<b>Breve descripci&oacute;n:</b> Se plantea el desarrollo de un sistema basado 
+							en reglas "fuzzy" (l&oacute;gica borrosa) que permita establecer criterios de 
+							similitud entre regiones adyacentes para agruparlas/separarlas, resultantes de 
+							un proceso de segmentaci&oacute;n de im&aacute;genes. El sistema se 
+							validar&aacute; con diferentes im&aacute;genes de prueba.<br>
+							<b>N&uacute;mero de participantes:</b> 2<br>
+							<b>Requisitos:</b> Por definir lenguaje y/o herramienta a usar<br>
+							<span class="finalizado">Finalizado (Jun. 2002)</span><br>
+							Autores: Ra&uacute;l Cabido Valladolid y Jes&uacute;s Gil Fern&aacute;ndez<br>
+							<br>
+						</li>
+						<li>
+							<b><i>Dise&ntilde;o e Implementaci&oacute;n de una Aplicaci&oacute;n para 
+									Detecci&oacute;n de Movimiento.</i></b><br>
+							<b>Breve descripci&oacute;n:</b> El proyecto consiste en el desarrollo y 
+							aplicaci&oacute;n de un sistema de detecci&oacute;n de movimiento mediante el 
+							c&aacute;lculo del flujo &oacute;ptico en secuencias de im&aacute;genes en 
+							formato mpeg.<br>
+							<b>N&uacute;mero de participantes:</b> 1<br>
+							<b>Requisitos:</b> C++ o disposici&oacute;n a aprender<br>
+							<span class="finalizado">Finalizado (Sept. 2001)</span><br>
+							Autor: Te&oacute;filo Romera<br>
+							<br>
+						</li>
+						</li>
+					</ul>
+					-->
+				</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<div align="center" class="muyPequena">
+			<b>&Uacute;ltima Actualizaci&oacute;n</b><br>
+			21/6/21
+		</div>
+		<br>
+		<br>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-951043-1";
+urchinTracker();
+</script>
+	</body>
+</html>
