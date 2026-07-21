@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Antonio Sanz Montemayor</title>
+		<script language="JavaScript">
+	window.defaultStatus="Presentacion";
+	var ns=((document.layers)?true:false);
+	var ie=((document.all)?true:false);
+	if(ns)
+		document.writeln('<li'+'nk rel="stylesheet" href="estilosNS.css" type="text/css">')
+	else
+		document.writeln('<li'+'nk rel="stylesheet" href="estilosIE.css" type="text/css">');
+		
+	function on(id){
+		id.style.color="#fcfa02";
+	}
+	function off(id){
+		id.style.color="#000000";
+	}
+
+var imagenes = ["imagenes/asanz_medano.jpg","imagenes/asanz_cotos.jpg","imagenes/asm.jpg", "imagenes/asanz_rioAra.jpg", "imagenes/asanz_SIDI.jpg","imagenes/asanz_215.jpg"];
+var titulos = ["El Medano (Tenerife)","Cotos (Madrid)","Madrid", "Rio Ara (Huesca)", "Laboratorio Microscopia Electronica UAM", "Despacho ESCET"];
+function imagenIni() {
+	numero=Math.floor(Math.random() * imagenes.length);
+	document.images.ini.src = imagenes[numero];
+	document.images.ini.alt = titulos[numero];
+	document.writeln(titulos[numero])
+}
+
+		</script>
+	</head>
+	<body bgcolor="white" class="pequena" marginwidth="0" marginheight="0" topmargin="0" leftmargin="0"> <!--</body> onload=imagenIni()>-->
+		<br>
+		<table align="center" class="pequena">
+			<tr>
+				<td width="250">
+					<br>
+					<img src="imagenes/flecha.gif"><span class="pequena">Profesor Asociado (&Aacute;rea de Lenguajes y Sistemas Inform&aacute;ticos, Grupo <a href="http://gavab.escet.urjc.es" target="_blank">GAVAB</a>)</span><br>
+					<img src="imagenes/flecha.gif"><span class="pequena">Ldo. en CC. F&iacute;sicas (Aplicada) por la Universidad Aut&oacute;noma de Madrid</span><br>
+					<img src="imagenes/flecha.gif"><span class="pequena">Miembro de la Junta de Escuela (ESCET)</span><br>
+					<img src="imagenes/flecha.gif"><span class="pequena">Miembro de la Comisi&oacute;n de Infraestructuras Inform&aacute;ticas y Nuevas Tecnolog&iacute;as de la ESCET</span><br>
+					<img src="imagenes/flecha.gif"><span class="pequena">Miembro de la Comisi&oacute;n de Reglamento de la ESCET</span><br>
+					<img src="imagenes/flecha.gif"><span class="pequena">Miembro de la ACM Students (<a href="mailto:montemayor@acm.org" target="_blank">montemayor@acm.org</a>)</span><br>
+					<br>
+				</td>
+				<td class="pequena">
+					<table align="center" cellspacing="2" cellpadding="2" border="0">
+						<tr>
+							<td align="center"><a href="javascript:self.location.reload() "><img name="ini" src="" border="0" alt=""></a><br>
+								<script language="JavaScript">imagenIni()</script>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<div align="center" class="muyPequena">
+			<b>&Uacute;ltima Actualizaci&oacute;n</b><br>
+			31/05/04
+		</div>
+		<br>
+		<br>
+		<div align="center"> <!--<a href="http://es.nedstat.net/cgi-bin/viewstat?name=ESCET"><img src="imagenes/http://es.nedstat.net/cgi-bin/nedstat.gif?name=ESCET" border=0 alt="" width=22 height=22></a>//-->
+			<!-- Begin Nedstat Basic code -->
+			<!-- Title: Antonio Sanz Montemayor -->
+			<!-- URL: http://www.escet.urjc.es/~asanz --
+			<script language="JavaScript" src="http://m1.nedstatbasic.net/basic.js">
+			</script>
+			<script language="JavaScript">
+			<!--
+			  nedstatbasic("ABJDaQp/WLO+D7PQOEfQ5hnJVHzw", 0);
+			//-->
+			</script>
+			<noscript>
+				<a target="_blank" href="http://v1.nedstatbasic.net/stats?ABJDaQp/WLO+D7PQOEfQ5hnJVHzw">
+					<img src="http://m1.nedstatbasic.net/n?id=ABJDaQp/WLO+D7PQOEfQ5hnJVHzw" border="0" nosave width="18" height="18"></a>
+			</noscript>
+			<!-- End Nedstat Basic code -->
+		</div>
+	</body>
+</html>

@@ -20,7 +20,7 @@
 
 //var imagenes = ["imagenes/asanz_mars.jpg","imagenes/asanz_siggraph05.jpg","imagenes/asanz_VNS.jpg","imagenes/asanz_medano.jpg", "imagenes/asanz_rioAra.jpg", "imagenes/asanz_SIDI.jpg", "imagenes/asanz_GoldenGate.jpg", "imagenes/asanz_PierSantaMonica.jpg", "imagenes/asanz_Downtown_LA.jpg", "imagenes/asanz_215.jpg", "imagenes/asanz_215.jpg","imagenes/asanz_215.jpg","imagenes/asanz_PFGPU2.jpg","imagenes/asanz_PFGPU2.jpg","imagenes/asanz_PFGPU2.jpg", "imagenes/asanz_dept.jpg", "imagenes/asanz_dept.jpg", "imagenes/asanz_dept.jpg", "imagenes/asanz_terraza.jpg", "imagenes/asanz_terraza.jpg", "imagenes/asanz_terraza.jpg", "imagenes/asanz_monumentValley05.jpg", "imagenes/asanz_monumentValley05.jpg", "imagenes/asanz_monumentValley05.jpg", "imagenes/asanz_grandCanyon05.jpg" , "imagenes/asanz_grandCanyon05.jpg", "imagenes/asanz_grandCanyon05.jpg", "imagenes/asanz_doctor.jpg", "imagenes/asanz_plymouth.jpg", "imagenes/asanz_plymouth.jpg", "imagenes/asanz_Boston.jpg", "imagenes/asanz_Boston.jpg"];
 var imagenes = ["asanz_mars.jpg","asanz_siggraph05.jpg","asanz_VNS.jpg","asanz_medano.jpg", "asanz_rioAra.jpg", "asanz_SIDI.jpg", "asanz_GoldenGate.jpg", "asanz_PierSantaMonica.jpg", "asanz_Downtown_LA.jpg", "asanz_215.jpg","asanz_215.jpg", "asanz_215.jpg","asanz_PFGPU2.jpg","asanz_PFGPU2.jpg","asanz_PFGPU2.jpg", "asanz_dept.jpg", "asanz_dept.jpg", "asanz_dept.jpg", "asanz_terraza.jpg", "asanz_terraza.jpg", "asanz_terraza.jpg", "asanz_monumentValley05.jpg", "asanz_monumentValley05.jpg", "asanz_monumentValley05.jpg", "asanz_grandCanyon05.jpg" , "asanz_grandCanyon05.jpg", "asanz_grandCanyon05.jpg", "asanz_doctor.jpg", "asanz_plymouth.jpg", "asanz_plymouth.jpg", "asanz_Boston.jpg", "asanz_Boston.jpg"];
-var titulos = ["Mars Exploration Rover (Siggraph2005 - Los Angeles)","Convention Center (Los Angeles)", "Cena de gala en Conferencia MECVNS (Tenerife)", "El Medano (Tenerife)", "Rio Ara (Huesca)","Laboratorio Microscopia Electronica UAM","Golden Gate (San Francisco)", "Muelle de Santa Monica (California)", "Centro de Los Angeles (California)" , "Despacho", "Despacho", "Despacho", "Despacho", "Despacho", "Despacho", "Departamental II", "Departamental II", "Departamental II", "Paseo Torrevieja", "Paseo Torrevieja", "Paseo Torrevieja", "Monument Valley", "Monument Valley", "Monument Valley", "Gran Cañón del Colorado (Arizona)", "Gran Cañón del Colorado (Arizona)", "Gran Cañón del Colorado (Arizona)", "Final Tesis Doctoral (Madrid)", "Plymouth (Massachusetts)", "Plymouth (Massachusetts)", "Boston (Massachusetts)", "Boston (Massachusetts)"];
+var titulos = ["Mars Exploration Rover (Siggraph2005 - Los Angeles)","Convention Center (Los Angeles)", "Cena de gala en Conferencia MECVNS (Tenerife) - 2005", "El Medano (Tenerife)", "Rio Ara (Huesca)","Laboratorio Microscopia Electronica UAM - 1999","Golden Gate (San Francisco)", "Muelle de Santa Monica (California)", "Centro de Los Angeles (California)" , "Despacho - 2003", "Despacho - 2003", "Despacho - 2003", "Despacho - 2003", "Despacho - 2003", "Despacho - 2003", "Departamental II", "Departamental II", "Departamental II", "Paseo Torrevieja", "Paseo Torrevieja", "Paseo Torrevieja", "Monument Valley", "Monument Valley", "Monument Valley", "Gran Cañón del Colorado (Arizona)", "Gran Cañón del Colorado (Arizona)", "Gran Cañón del Colorado (Arizona)", "Final Tesis Doctoral (Madrid)", "Plymouth (Massachusetts)", "Plymouth (Massachusetts)", "Boston (Massachusetts)", "Boston (Massachusetts)"];
 function imagenIni() {
 	numero=Math.floor(Math.random() * imagenes.length);
 	document.images.ini.src = "imagenes/"+imagenes[numero];
@@ -48,8 +48,8 @@ function imagenIni() {
 			<tr>
 				<td class="pequena" align="center" colspan="2">
 					<br>
-					<span class="pequena"><b>Profesor Titular de Universidad</b><br>
-					<b>Departamento de Ciencias de la Computación, <br>Arquitectura de Computadores, Lenguajes y Sistemas Informáticos<br> y Estadística e Investigación Operativa (DCALE)<br></b><br>
+					<span class="pequena"><b>Catedrático de Universidad</b><br>
+					<b>Departamento de Informática y Estadística</b><br>
 					<b>Grupo <a href="http://www.caporesearch.es" target="_blank">CAPO</a></b></span><br>
 					<b>antonio.sanz[at]urjc.es</b>
 					<br>
@@ -61,16 +61,15 @@ function imagenIni() {
 					<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Doctor en Informática por la Universidad Rey Juan Carlos</span><br>
 					<br>
 					<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Ldo. en CC. F&iacute;sicas (Aplicada) por la Universidad Aut&oacute;noma de Madrid</span><br>
-					<!--<br>
-					<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Miembro "Professional" de la ACM (montemayor[at]acm.org)</span><br>-->
+					<br>
+					<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Miembro de la Junta de Escuela (ETSII)</span><br>
 				</td>
 				<td>
-          <br>
-					<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Miembro de la Junta de Escuela (ETSII)</span><br>
+          <br>		<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Miembro Comisión Académica de sección Ingeniería y Arquitectura en la Escuela de Másteres Oficiales de la URJC</span><br>
 					<br>
-					<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Director del Programa para la Transformación Digital de la URJC</span><br>
+					<!--<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Director del Programa para la Transformación Digital de la URJC</span><br>-->
 					<br>
-					
+					<img src="imagenes/flecha.gif">&nbsp;<span class="pequena">Coordinador Programa de Doctorado en Tecnologías de la Información y de las Comunicaciones de la URJC</span><br>
 				</td>
 
 			</tr>
@@ -78,7 +77,7 @@ function imagenIni() {
 				<td colspan="2" class="muyPequena" align="center">
 					<br>
 					<b>&Uacute;ltima Actualizaci&oacute;n</b><br>
-					17/01/18
+					13/12/23
 				</td>
 			</tr>
 		</table>
